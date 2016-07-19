@@ -62,7 +62,7 @@ public class IconPressPainter extends IconPainter {
     private void initValues() {
         middle = height / 2;
         iconMargin = imageWidth / 2;
-        ballRadius = (int) context.getResources().getDimension(R.dimen.ball_radius);
+        ballRadius = (height - 3) / 2 ;
         iconXPosition = (width - ballRadius) + iconMargin;
     }
 

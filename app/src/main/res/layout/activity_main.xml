@@ -9,7 +9,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context=".MainActivity"
-    android:background="#4285F4"
+    android:background="@android:color/white"
     >
   <com.github.glomadrian.materialanimatedswitch.MaterialAnimatedSwitch
       android:id="@+id/masterSwitch"
@@ -67,6 +67,7 @@
         app:ball_press_color="@color/md_white_1000"
         app:icon_release="@drawable/ic_create_white_36dp"
         app:icon_press="@drawable/ic_delete_deep_purple_500_36dp"
+        app:ball_size="35dp"
         />
 
     <com.github.glomadrian.materialanimatedswitch.MaterialAnimatedSwitch

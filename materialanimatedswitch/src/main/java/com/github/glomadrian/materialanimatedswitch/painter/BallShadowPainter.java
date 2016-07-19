@@ -22,6 +22,6 @@ public class BallShadowPainter extends BallPainter {
 
     @Override
     public void draw(Canvas canvas) {
-        canvas.drawCircle(ballPositionX, (height / 2) + 2, radius, paint);
+        canvas.drawCircle(ballPositionX, middle + 2, radius, paint);
     }
 }

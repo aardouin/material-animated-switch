@@ -31,7 +31,7 @@ public class BallPainter implements SwitchInboxPinnedPainter {
     private BallFinishObservable ballFinishObservable;
     private BallMoveObservable ballMoveObservable;
     private Context context;
-    private int middle;
+    protected int middle;
     private int bgColor;
     private int toBgColor;
 
@@ -102,11 +102,11 @@ public class BallPainter implements SwitchInboxPinnedPainter {
     public void onSizeChanged(int height, int width) {
         this.height = height;
         this.width = width;
-        middle = height / 2;
-        radius = height / 2 - 4;
-        padding = height / 2 - 4;
+        radius = (height - 4) / 2;
+        middle = radius ;
+        padding = radius + 2;
         ballPositionX = padding;
-        initAnimator();
+        initAnimator();x
         initColorAnimator();
     }
 

@@ -140,7 +140,7 @@ public class IconReleasePainter extends IconPainter {
     private void initValues() {
         iconMargin = imageWidth / 2;
         middle = height / 2;
-        margin = height / 2 - 4;
+        margin = (height - 3) / 2 ;
     }
 
     private void initAnimationsValues() {
