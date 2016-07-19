@@ -106,7 +106,7 @@ public class BallPainter implements SwitchInboxPinnedPainter {
         middle = radius ;
         padding = radius + 2;
         ballPositionX = padding;
-        initAnimator();x
+        initAnimator();
         initColorAnimator();
     }
 
