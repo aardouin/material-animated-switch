@@ -55,6 +55,7 @@ With custom colors and icons attributes
      app:ball_press_color="@color/md_white_1000"
      app:icon_release="@drawable/ic_play_arrow_white_36dp"
      app:icon_press="@drawable/ic_stop_deep_orange_500_36dp"
+     app:ball_size="40dp"
      />
 ```
 
